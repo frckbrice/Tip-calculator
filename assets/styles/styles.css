@@ -46,7 +46,33 @@ body {
  font-size: 3vh;  
 }
 
+@media screen and (max-width:768px) {
+  #container {
+    gap: 8%;
+  }
 
+  .reset,
+.calculate {
+  width: auto;
+}
+}
+
+@media screen and (max-width:768px) {
+  #container {
+    gap: 8%;
+    height: 45vh;
+  }
+
+  .reset,
+.calculate {
+  width: auto;
+}
+
+.percentage-tip,
+.amount {
+  width: 50vw;
+}
+}
 
 
 
