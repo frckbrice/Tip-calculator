@@ -1,0 +1,20 @@
+#container {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  
+} 
+
+center {
+background: url('../images/images.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.calculate */
+
+.amount {
+  height: 20px;
+}
