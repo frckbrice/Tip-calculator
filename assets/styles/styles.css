@@ -1,20 +1,58 @@
+body {
+  background: linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 /50%), rgba(0 0 0 /50%)), url('../images/bg.png')
+}
+
 #container {
   margin-top: 20vh;
   display: flex;
   flex-direction: column;
-  row-gap: 15px;
-  
-} 
-
-center {
-background: url('../images/images.jpeg');
+  /* align-items: center; */
+  gap: 10vh;
+  width: 60%;
+  background: linear-gradient(rgba(0 0 0 / 50%), rgba(0 0 0 /50%), rgba(0 0 0 /50%)), url('../images/images.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
+  background-size: cover;
+  height: 50vh;
+  font-size: 3vh;
 }
 
-.calculate */
+.input-element {
+  margin-top: 5%;
+  color: aliceblue;
+}
 
+.display,
+.percentage {
+  margin-left:30px;
+  color: aliceblue;
+}
+
+.percentage-tip,
 .amount {
-  height: 20px;
+  height: 4.5vh;
+  font-size: 2.5vh; 
 }
+
+#result {
+  font-size: 4.5vh; 
+  color: aliceblue;
+}
+
+.reset,
+.calculate {
+  width: 16%;
+  height: 6vh;
+ font-size: 3vh;  
+}
+
+
+
+
+
+
+
+
+
+
+
